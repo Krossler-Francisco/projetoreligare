@@ -16,11 +16,11 @@ function App() {
         <div className='navbar-desktop'/>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/psi" element={<Users />} />
-          <Route path="/services" element={<Services />} />
+          <Route path="./" element={<Home />} />
+          <Route path="./about" element={<About />} />
+          <Route path="./contact" element={<Contact />} />
+          <Route path="./psi" element={<Users />} />
+          <Route path="./services" element={<Services />} />
         </Routes>
         <Footer/>
       </Router>
