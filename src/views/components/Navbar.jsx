@@ -19,27 +19,27 @@ const Navbar = () => {
       <div className="navbar-logo">Projeto Religare</div>
       <ul className={`navbar-links ${isOpen ? 'open' : ''}`}>
         <li>
-          <Link className={`link ${isActive('/')}`} onClick={toggleMenu} to="/">
+          <Link className={`link ${isActive('/')}`} onClick={toggleMenu} to="/projetoreligare/">
             Home
           </Link>
         </li>
         <li>
-          <Link className={`link ${isActive('/about')}`} onClick={toggleMenu} to="/about">
+          <Link className={`link ${isActive('/about')}`} onClick={toggleMenu} to="/projetoreligare/about">
             Quem somos
           </Link>
         </li>
         <li>
-          <Link className={`link ${isActive('/services')}`} onClick={toggleMenu} to="/services">
+          <Link className={`link ${isActive('/services')}`} onClick={toggleMenu} to="/projetoreligare/services">
             Serviços
           </Link>
         </li>
         <li>
-          <Link className={`link ${isActive('/psi')}`} onClick={toggleMenu} to="/psi">
+          <Link className={`link ${isActive('/psi')}`} onClick={toggleMenu} to="/projetoreligare/psi">
             Equipe
           </Link>
         </li>
         <li>
-          <Link className={`link ${isActive('/contact')}`} onClick={toggleMenu} to="/contact">
+          <Link className={`link ${isActive('/contact')}`} onClick={toggleMenu} to="/projetoreligare/contact">
             Contato
           </Link>
         </li>

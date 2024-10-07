@@ -21,11 +21,11 @@ function Footer() {
         <div className="footer-links">
           <h3>Pagina</h3>
           <ul>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/about">Quem somos</Link></li>
-            <li><Link to="/services">Serviços</Link></li>
-            <li><Link to="/psi">Equipe</Link></li>
-            <li><Link to="/contact">Contato</Link></li>
+            <li><Link to="./projetoreligare/">Home</Link></li>
+            <li><Link to="./projetoreligare/about">Quem somos</Link></li>
+            <li><Link to="./projetoreligare/services">Serviços</Link></li>
+            <li><Link to="./projetoreligare/psi">Equipe</Link></li>
+            <li><Link to="./projetoreligare/contact">Contato</Link></li>
           </ul>
         </div>
         <div className="footer-creators">
