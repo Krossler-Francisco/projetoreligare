@@ -85,7 +85,7 @@ function Home() {
         </strong>
         <p>O Projeto Religare é uma Clínica Online que oferece o melhor serviço de atendimento psicológico online!</p>
         <p>Contamos com uma equipe de psicólogos capacitados para te atender.</p>
-        <Link to="/contact" className="home-button">
+        <Link to="/projetoreligare/contact" className="home-button">
           Agende já sua consulta <span>➜</span>
         </Link>
       </section>
