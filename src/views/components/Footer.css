@@ -1,0 +1,69 @@
+.footer {
+    background-color: #f1f1f1;
+    padding: 20px; /* Padding para un diseño más limpio */
+    text-align: center;
+  }
+  
+  .footer-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas para pantallas grandes */
+    gap: 5px; /* Espacio entre columnas */
+    align-items: start; /* Alinear elementos al principio de cada celda */
+  }
+  
+  .footer-logo {
+    grid-column: span 3; /* Ocupa todas las columnas en pantallas grandes */
+    margin-bottom: 10px;
+  }
+  
+  .footer-links,
+  .footer-creators {
+    margin: 5px 0;
+  }
+
+  .footer h3{
+    margin-bottom: 10px;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    margin: 2px 0; /* Margen entre elementos */
+  }
+  
+  .footer-links a {
+    color: #9F0017; /* Color del enlace */
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-links a:hover {
+    color: #c95353; /* Color del enlace al pasar el mouse */
+  }
+  
+  .footer-bottom {
+    grid-column: span 3; /* Ocupa todas las columnas en pantallas grandes */
+    margin-top: 10px;
+    padding: 10px 0; /* Padding para separación */
+  }
+  
+  /* Estilos para dispositivos móviles */
+  @media (max-width: 768px) {
+    .footer-container {
+      display: flex;
+      flex-direction: column; /* Cambiar a columna en pantallas pequeñas */
+      align-items: center; /* Centrar elementos */
+    }
+    
+    .footer-logo {
+      margin-bottom: 20px;
+    }
+  
+    .footer-bottom {
+      margin-top: 10px;
+    }
+  }
+  
