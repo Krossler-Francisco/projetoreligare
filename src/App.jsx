@@ -7,6 +7,7 @@ import Users from './views/Users';
 import "./views/home.css"
 import Footer from './views/components/Footer';
 import Services from './views/Services';
+import Layout from './Layout';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           <Route path="./services" element={<Services />} />
         </Routes>
         <Footer/>
+        <Layout/>
       </Router>
       </div>
   );
