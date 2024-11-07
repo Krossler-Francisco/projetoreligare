@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import './Navbar.css';
 
@@ -19,27 +19,27 @@ const Navbar = () => {
       <div className="navbar-logo">Projeto Religare</div>
       <ul className={`navbar-links ${isOpen ? 'open' : ''}`}>
         <li>
-          <Link className={`link ${isActive('/')}`} onClick={toggleMenu} to="/projetoreligare/">
+          <Link className={`link ${isActive('/projetoreligare/')}`} onClick={toggleMenu} to="/projetoreligare/">
             Home
           </Link>
         </li>
         <li>
-          <Link className={`link ${isActive('/about')}`} onClick={toggleMenu} to="/projetoreligare/about">
+          <Link className={`link ${isActive('/projetoreligare/about')}`} onClick={toggleMenu} to="/projetoreligare/about">
             Quem somos
           </Link>
         </li>
         <li>
-          <Link className={`link ${isActive('/services')}`} onClick={toggleMenu} to="/projetoreligare/services">
-            Feedback
-          </Link>
-        </li>
-        <li>
-          <Link className={`link ${isActive('/services')}`} onClick={toggleMenu} to="/projetoreligare/services">
+          <Link className={`link ${isActive('/projetoreligare/services')}`} onClick={toggleMenu} to="/projetoreligare/services">
             Nossos serviços
           </Link>
         </li>
         <li>
-          <Link className={`link ${isActive('/contact')}`} onClick={toggleMenu} to="/projetoreligare/contact">
+          <Link className={`link ${isActive('/projetoreligare/novidades')}`} onClick={toggleMenu} to="/projetoreligare/novidades">
+            Novidades
+          </Link>
+        </li>
+        <li>
+          <Link className={`link ${isActive('/projetoreligare/contact')}`} onClick={toggleMenu} to="/projetoreligare/contact">
             Contato
           </Link>
         </li>

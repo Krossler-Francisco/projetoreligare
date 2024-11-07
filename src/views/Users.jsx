@@ -1,8 +1,7 @@
-import React from 'react';
 
 function Users() {
   return (
-    <div>
+    <div className='home about-section-space'>
       <h1 className='info-h1'>Nossos Psicólogos</h1>
       <div className="user-section">
         <img src="https://static.vecteezy.com/system/resources/thumbnails/000/439/863/small/Basic_Ui__28186_29.jpg" alt="Psicólogo 1" className="user-image left" />
@@ -17,7 +16,7 @@ function Users() {
       <div className="user-section">
         <img src="https://static.vecteezy.com/system/resources/thumbnails/000/439/863/small/Basic_Ui__28186_29.jpg" alt="Psicólogo 3" className="user-image left" />
         <div className="user-info">
-          <h2>Psicólogo 2</h2>
+          <h2>Samuel</h2>
           <p>
             O Psicólogo 2 é especialista em terapia de casal e individual, com mais de 12 anos de experiência. Ele acredita no poder da comunicação e do autoconhecimento para melhorar as relações pessoais e profissionais, ajudando casais e indivíduos a alcançar maior harmonia em suas vidas.
           </p>
@@ -28,7 +27,7 @@ function Users() {
       <div className="user-section">
         <img src="https://static.vecteezy.com/system/resources/thumbnails/000/439/863/small/Basic_Ui__28186_29.jpg" alt="Psicólogo 3" className="user-image left" />
         <div className="user-info">
-          <h2>Psicólogo 3</h2>
+          <h2>Giovanni</h2>
           <p>
             O Psicólogo 3 é especialista em terapia de casal e individual, com mais de 12 anos de experiência. Ele acredita no poder da comunicação e do autoconhecimento para melhorar as relações pessoais e profissionais, ajudando casais e indivíduos a alcançar maior harmonia em suas vidas.
           </p>

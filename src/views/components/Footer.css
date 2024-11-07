@@ -1,7 +1,8 @@
 .footer {
-    background-color: #f1f1f1;
+    background-color: #ffffff;
     padding: 20px; /* Padding para un diseño más limpio */
     text-align: center;
+    border-top: 1px solid black;
   }
   
   .footer-container {

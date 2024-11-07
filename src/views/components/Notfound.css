@@ -1,0 +1,42 @@
+.not-found-container{
+    display: flex;
+    height: 80vh;
+  }
+  
+  .not-found {
+    padding: 8rem;
+  }
+
+  .not-found h1{
+    font-size: 3rem;
+    color:#6f1a27;
+  }
+
+  .not-found p{
+    font-size: 1.5rem;
+    color: black;
+  }
+
+@media (max-width: 768px) {
+  .not-found {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin:0 auto;
+    padding: 0;
+  }
+
+  .not-found h1{
+    font-size: 1.6rem;
+  }
+
+  .not-found p{
+    margin-top: 1rem;
+    max-width: 300px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 1.1rem;
+  }
+}

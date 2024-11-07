@@ -109,7 +109,7 @@ function Home() {
         </button>
       </section>
       <section className='home'>
-        <strong>
+        <strong className="home-h1-space">
           <h1>Seja bem vindo! <br />É um prazer receber você!</h1>
         </strong>
         <p>O Projeto Religare é uma Clínica Online que oferece o melhor serviço de atendimento psicológico online!</p>
