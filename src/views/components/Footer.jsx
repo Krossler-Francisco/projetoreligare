@@ -22,17 +22,16 @@ function Footer() {
           <h3>Pagina</h3>
           <ul>
             <li><Link to="./projetoreligare/">Home</Link></li>
-            <li><Link to="./projetoreligare/about">Quem somos</Link></li>
+            <li><Link to="./projetoreligare/about">Equipe</Link></li>
+            <li><Link to="./projetoreligare/psi">Feedback</Link></li>
             <li><Link to="./projetoreligare/services">Serviços</Link></li>
-            <li><Link to="./projetoreligare/psi">Equipe</Link></li>
-            <li><Link to="./projetoreligare/contact">Contato</Link></li>
-          </ul>
+        </ul>
         </div>
         <div className="footer-creators">
           <h3>Creadores</h3>
-          <p>Ricardo Falleiros</p>
-          <p>Samuel Alguns</p>
-          <p>Giovanni Ribeiro</p>
+          <p><a href='#'>Ricardo Falleiros</a></p>
+          <p><a href='#'>Samuel Alguns</a></p>
+          <p><a href='#'>Giovanni Ribeiro</a></p>
         </div>
       </div>
       <div className="footer-bottom">

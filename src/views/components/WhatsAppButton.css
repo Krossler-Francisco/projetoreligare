@@ -1,0 +1,49 @@
+/* src/views/components/WhatsAppButton.css */
+.whatsapp-button {
+    position: fixed;
+    bottom: 22px;
+    right: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    cursor: pointer;
+  }
+  
+  .whatsapp-icon {
+    width: 60px;
+    height: 60px;
+    transition: transform 0.3s ease;
+  }
+  
+  .whatsapp-icon:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Mensagem do WhatsApp escondida por padrão */
+  .whatsapp-message {
+    background-color: #25d366;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    white-space: nowrap;
+    position: absolute;
+    right: 60px; /* Posiciona a mensagem à esquerda do ícone */
+    opacity: 0;
+    transform: translateX(10px); /* Escondido à direita */
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  
+  /* Classe para quando a mensagem está visível */
+  .whatsapp-message.visible {
+    opacity: 1;
+    transform: translateX(0); /* Move a mensagem para sua posição original */
+  }
+  
+  .whatsapp-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  

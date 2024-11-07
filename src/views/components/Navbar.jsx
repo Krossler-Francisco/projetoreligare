@@ -30,12 +30,12 @@ const Navbar = () => {
         </li>
         <li>
           <Link className={`link ${isActive('/services')}`} onClick={toggleMenu} to="/projetoreligare/services">
-            Serviços
+            Feedback
           </Link>
         </li>
         <li>
-          <Link className={`link ${isActive('/psi')}`} onClick={toggleMenu} to="/projetoreligare/psi">
-            Equipe
+          <Link className={`link ${isActive('/services')}`} onClick={toggleMenu} to="/projetoreligare/services">
+            Nossos serviços
           </Link>
         </li>
         <li>

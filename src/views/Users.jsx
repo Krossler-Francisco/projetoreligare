@@ -2,7 +2,7 @@ import React from 'react';
 
 function Users() {
   return (
-    <div className='home'>
+    <div>
       <h1 className='info-h1'>Nossos Psicólogos</h1>
       <div className="user-section">
         <img src="https://static.vecteezy.com/system/resources/thumbnails/000/439/863/small/Basic_Ui__28186_29.jpg" alt="Psicólogo 1" className="user-image left" />

@@ -8,13 +8,15 @@ import "./views/home.css"
 import Footer from './views/components/Footer';
 import Services from './views/Services';
 import Layout from './Layout';
+import WhatsAppButton from './views/components/WhatsAppButton';
+import Chatbot from './views/components/Chatbot';
 
 
 function App() {
   return (
     <div className='bg'>
       <Router>
-        <div className='navbar-desktop'/>
+        <div id='modal-closed' className='navbar-desktop'/>
         <Navbar />
         <Routes>
           <Route path="/projetoreligare/" element={<Home />} />
@@ -23,6 +25,7 @@ function App() {
           <Route path="projetoreligare/psi" element={<Users />} />
           <Route path="projetoreligare/services" element={<Services />} />
         </Routes>
+        <Chatbot/>
         <Footer/>
       </Router>
       </div>

@@ -34,13 +34,17 @@
     margin: 2px 0; /* Margen entre elementos */
   }
   
-  .footer-links a {
+  .footer-links a, a{
     color: #9F0017; /* Color del enlace */
     text-decoration: none;
     transition: color 0.3s;
   }
   
   .footer-links a:hover {
+    color: #c95353; /* Color del enlace al pasar el mouse */
+  }
+
+  .footer-creators a:hover {
     color: #c95353; /* Color del enlace al pasar el mouse */
   }
   

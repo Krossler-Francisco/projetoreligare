@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -25,10 +24,11 @@
 }
 
 .navbar-logo {
-  font-family: 'Pacifico', cursive;
+  font-family: 'Lobster Two', cursive;
   font-weight: 400;
   font-size: 1.6rem;
-  color: #9F0017;
+  font-style: italic;
+  color: #6f1a27;
 }
 
 .navbar-links {
@@ -65,8 +65,8 @@
   display: none;
   flex-direction: column;
   cursor: pointer;
-  background-color: rgb(201, 83, 83);
-  padding: 12px;
+  background-color: #6f1a27;
+  padding: 8px;
   border-radius: 4px;
 }
 
