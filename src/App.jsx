@@ -25,7 +25,7 @@ function App() {
           <Route path="projetoreligare/psi" element={<Users />} />
           <Route path="projetoreligare/services" element={<Services />} />
         </Routes>
-        <Chatbot/>
+        <WhatsAppButton/>
         <Footer/>
       </Router>
       </div>
