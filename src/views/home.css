@@ -221,7 +221,7 @@ strong {
     text-transform: uppercase;
     transition: transform .2s ease;
     cursor: pointer;
-    margin-top: 40px;
+    margin-top: 2rem;
 }
 
 .modal__btn:hover,
@@ -284,6 +284,10 @@ strong {
   .modal {
     width: 90%; /* Ajusta la anchura para pantallas más pequeñas */
     padding: 2rem 1rem;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .link-2 {
@@ -299,7 +303,6 @@ strong {
 
   .link-2::before {
     content: '×';
-    transform: translateY(.04rem);
   }
 
   .modal__title {
@@ -437,8 +440,16 @@ strong {
   .contact p {
     font-size: 1rem;
     margin-bottom: 30px;
-
+    
   }
+
+  .user-section {  
+    margin: 1rem;
+  }
+  
+
+
+
 }
 
 /* Estilos do Users */

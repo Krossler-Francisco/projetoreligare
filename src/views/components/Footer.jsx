@@ -33,7 +33,7 @@ function Footer() {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>© {new Date().getFullYear()} <a className='krossler' href="https://krossler-portfolio.vercel.app">Francisco Krossler</a></p>
+        <p>© {new Date().getFullYear()} <a className='krossler' target='_blank' href="https://krossler-portfolio.vercel.app">Francisco Krossler</a></p>
       </div>
     </footer>
   );

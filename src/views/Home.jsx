@@ -69,7 +69,7 @@ function Home() {
       setTimeout(() => {
         setIsTransitioning(false); // Desactiva la transición
         setCurrentIndex(1); // Va al primer slide real
-      }, 500); // Define el tiempo de la transición falsa
+      }, 1000); // Define el tiempo de la transición falsa
     }
 
     if (currentIndex === 0) {
@@ -77,7 +77,7 @@ function Home() {
       setTimeout(() => {
         setIsTransitioning(false); // Desactiva la transición
         setCurrentIndex(totalImages); // Va al último slide real
-      }, 500);
+      }, 1000);
     }
   }, [currentIndex, totalImages]);
 
@@ -89,7 +89,7 @@ function Home() {
           ref={carouselRef}
           style={{
             transform: `translateX(-${currentIndex * 100}%)`,
-            transition: isTransitioning ? 'transform 0.5s ease-in-out' : 'none'
+            transition: isTransitioning ? 'transform 1s ease-in-out' : 'none'
           }}
           onTouchStart={handleTouchStart} // Agregar evento touchstart
           onTouchMove={handleTouchMove}   // Agregar evento touchmove
@@ -122,7 +122,7 @@ function Home() {
           <div className="modal-container" id="modal-opened">
             <div className="modal">
               <div className="modal__details">
-                <strong className="modal__title">Formulario de ingreso.</strong>
+                <strong className="modal__title">Formulário de inscrição.</strong>
                 <p className="modal__description">O formulário contém campos obrigatórios, como nome, endereço de e-mail e dados pessoais. Certifique-se de preencher as informações corretamente antes de enviar o formulário.</p>
               </div>
               <p className="modal__text">Após o envio, nossa equipe entrará em contato para agendar uma primeira entrevista terapêutica. Caso tenha dúvidas, estamos à disposição para ajudar em todo o processo.</p>

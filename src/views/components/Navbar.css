@@ -53,6 +53,10 @@
   transition: color 0.3s ease;
 }
 
+.navbar-btn{
+  font-size: 0.9rem;
+}
+
 .navbar-links .link:hover {
   color: #c95353;
 }
@@ -81,17 +85,18 @@
 
 .navbar-btn{
   padding: .4rem .8rem;
-  color: rgb(30, 30, 30);
+  color: rgb(0, 0, 0);
   border: 2px solid #6f1a27;
   margin-left: 2rem;
   border-radius: 12px;
-  font-weight: 600;
+  font-weight: 500;
   transition: .3s ease;
+  
 }
 
 .navbar-btn:hover{
-  border-color: #000000;
-  color: rgb(0, 0, 0);
+  border-color: #6f1a27;
+  color: #6f1a27;
 }
 
 /* Media query para telas menores */
@@ -122,6 +127,12 @@
     overflow: auto;
     max-height: 100%;
     
+  }
+  .navbar-btn{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-6px);
   }
 
   .navbar-links li {

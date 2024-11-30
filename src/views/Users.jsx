@@ -18,11 +18,10 @@ Sou membro da ABRAPSO Vale do Paraíba, busco conciliar o olhar psico-social no 
         <div className="user-info">
           <h2>Ricardo Falleiros</h2>
           <p>
-          Sou Psicólogo Clínico, com ênfase em uma prática baseada em evidências, tendo por linha teórica a terapia Cognitivo-Comportamental. Atuo pelo Projeto Religare e na Clínica De Psicologia Giansante desde sua concepção, privilegiando um olhar científico e criterioso, adotando um tratamento para os transtornos mentais pautado em eficácia e efetividade, priorizando sempre  o vínculo terapêutico. Possuo formações na área de Desenvolvimento Humano, Psicopatologias e Prática Clínica.</p>
+          Sou Psicólogo Clínico, com ênfase em uma prática baseada em evidências, tendo por linha teórica a terapia Cognitivo-Comportamental. Atuo pelo Projeto Religare e na Clínica de Psicologia Giansante desde sua concepção, privilegiando um olhar científico e criterioso, adotando um tratamento para os transtornos mentais pautado em eficácia e efetividade, priorizando sempre  o vínculo terapêutico. Possuo formações na área de Desenvolvimento Humano, Psicopatologias e Prática Clínica.</p>
         </div>
       </div>
 
-      {/* Terceiro Psicólogo */}
       <div className="user-section">
         <img src="./psi/3.jpg" alt="Psicólogo 3" className="user-image left" />
         <div className="user-info">
