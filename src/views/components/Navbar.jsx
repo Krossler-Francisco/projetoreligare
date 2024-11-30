@@ -19,22 +19,22 @@ const Navbar = () => {
       <div translate="no" className="navbar-logo">Projeto Religare</div>
       <ul className={`navbar-links ${isOpen ? 'open' : ''}`}>
         <li>
-          <Link translate="no" className={`link ${isActive('/projetoreligare/')}`} onClick={toggleMenu} to="/projetoreligare/">
+          <Link translate="no" className={`link ${isActive('/')}`} onClick={toggleMenu} to="/">
             Home
           </Link>
         </li>
         <li>
-          <Link className={`link ${isActive('/projetoreligare/about')}`} onClick={toggleMenu} to="/projetoreligare/about">
+          <Link className={`link ${isActive('/about')}`} onClick={toggleMenu} to="/about">
             Quem somos
           </Link>
         </li>
         <li>
-          <Link className={`link ${isActive('/projetoreligare/services')}`} onClick={toggleMenu} to="/projetoreligare/services">
+          <Link className={`link ${isActive('/services')}`} onClick={toggleMenu} to="/services">
             Nossos serviços
           </Link>
         </li>
         <li>
-          <Link className={`link ${isActive('/projetoreligare/contact')}`} onClick={toggleMenu} to="/projetoreligare/contact">
+          <Link className={`link ${isActive('/contact')}`} onClick={toggleMenu} to="/contact">
             Contato
           </Link>
         </li>

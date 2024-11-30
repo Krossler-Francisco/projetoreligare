@@ -18,12 +18,12 @@ function Footer() {
           </ul>
         </div>
         <div className="footer-links">
-          <h3>Pagina</h3>
+          <h3>Página</h3>
           <ul>
-            <li><Link translate="no" to="./projetoreligare/">Home</Link></li>
-            <li><Link to="./projetoreligare/about">Equipe</Link></li>
-            <li><Link to="./projetoreligare/services">Serviços</Link></li>
-        </ul>
+            <li><Link translate="no" to="/">Home</Link></li>
+            <li><Link to="/about">Equipe</Link></li>
+            <li><Link to="/services">Serviços</Link></li>
+          </ul>
         </div>
         <div className="footer-creators footer-links">
           <h3>Creadores</h3>
