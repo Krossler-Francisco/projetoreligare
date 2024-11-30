@@ -90,7 +90,8 @@
 }
 
 .navbar-btn:hover{
-  border-color: black;
+  border-color: #000000;
+  color: rgb(0, 0, 0);
 }
 
 /* Media query para telas menores */

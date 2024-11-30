@@ -126,7 +126,7 @@ function Home() {
                 <p className="modal__description">O formulário contém campos obrigatórios, como nome, endereço de e-mail e dados pessoais. Certifique-se de preencher as informações corretamente antes de enviar o formulário.</p>
               </div>
               <p className="modal__text">Após o envio, nossa equipe entrará em contato para agendar uma primeira entrevista terapêutica. Caso tenha dúvidas, estamos à disposição para ajudar em todo o processo.</p>
-              <a href='https://l.instagram.com/?u=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2F1tEnc9bt_6a1wu882HrpXw50rn5CINZpjF365Kz-eyCQ%2Fedit%3Ffbclid%3DPAZXh0bgNhZW0CMTEAAaYz6NeAryYncrLInhAzyP2DKqQ_FGuBTsMcUmkQoc_vjnqhmM1zPxJ7LjQ_aem_mGTldvm2aYo1CMtxVDFgxQ&e=AT2AxAmz1tIokqEVz203w8C4XsWsyi4rxBFxX5qgN_87P068Nsj9deJ68V6vjlghLDwFu1QRfzM_T4gyKxGk6ol55E8Nz652h53x5QFlWWRPTO-U0iSmTg' className="modal__btn">Formulario<span>➜</span></a>
+              <a translate='no' href='https://l.instagram.com/?u=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2F1tEnc9bt_6a1wu882HrpXw50rn5CINZpjF365Kz-eyCQ%2Fedit%3Ffbclid%3DPAZXh0bgNhZW0CMTEAAaYz6NeAryYncrLInhAzyP2DKqQ_FGuBTsMcUmkQoc_vjnqhmM1zPxJ7LjQ_aem_mGTldvm2aYo1CMtxVDFgxQ&e=AT2AxAmz1tIokqEVz203w8C4XsWsyi4rxBFxX5qgN_87P068Nsj9deJ68V6vjlghLDwFu1QRfzM_T4gyKxGk6ol55E8Nz652h53x5QFlWWRPTO-U0iSmTg' className="modal__btn btn-config">Formulario<span>➜</span></a>
               <a href="#modal-closed" className="link-2"></a>
             </div>
           </div>

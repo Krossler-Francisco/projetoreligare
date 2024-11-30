@@ -226,8 +226,8 @@ strong {
 
 .modal__btn:hover,
 .modal__btn:focus {
-  border-color: hsla(0, 0%, 100%, .6);
   transform: translateY(-.2rem);
+  color: rgb(148, 148, 148);
 }
 
 .link-1 {
@@ -243,6 +243,10 @@ strong {
   font-weight: 500;
   margin-top: 3rem;
   transition: 0.3s ease;
+}
+
+.link-1:hover{
+  color: rgb(212, 212, 212);
 }
 
 .link-2 {
@@ -537,7 +541,15 @@ body[data-theme="dark"] .user-section:hover {
   background-color: #444;
 }
 
+.btn-config{
+  color: white;
+  transition: .2s ease;
+  margin-top: 1rem;
+}
 
+.btn-config:hover{
+  color: rgb(155, 155, 155);
+}
 
 /* Estilos responsivos */
 @media (max-width: 768px) {
