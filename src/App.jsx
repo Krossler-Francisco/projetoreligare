@@ -11,7 +11,6 @@ import WhatsAppButton from './views/components/WhatsAppButton';
 import NotFound from './views/components/Notfound';
 import { useEffect } from 'react';
 
-
 function App() {
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', 'light'); // Tema claro
@@ -20,20 +19,20 @@ function App() {
   return (
     <div className='bg'>
       <Router>
-        <div id='modal-closed' className='navbar-desktop'/>
+        <div id='modal-closed' className='navbar-desktop' />
         <Navbar />
         <Routes>
-          <Route path="/projetoreligare/" element={<Home />} />
-          <Route path="projetoreligare/about" element={<About />} />
-          <Route path="projetoreligare/contact" element={<Contact />} />
-          <Route path="projetoreligare/psi" element={<Users />} />
-          <Route path="projetoreligare/services" element={<Services />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/psi" element={<Users />} />
+          <Route path="/services" element={<Services />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-        <WhatsAppButton/>
-        <Footer/>
+        <WhatsAppButton />
+        <Footer />
       </Router>
-      </div>
+    </div>
   );
 }
 
