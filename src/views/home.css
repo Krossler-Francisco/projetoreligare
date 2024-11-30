@@ -1,9 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-body{
+
+body {
   --light: hsl(0, 0%, 100%);
-  --background: linear-gradient(to right bottom, #4b111a, #4b111a, #5b1923, #6f1a27);
+  --background-light: linear-gradient(to right bottom, #4b111a, #4b111a, #5b1923, #6f1a27);
+  --background-dark: linear-gradient(to right bottom, #1e1e1e, #2d2d2d, #3e3e3e, #4f4f4f);
+  --text-light: black;
+  --text-dark: rgb(0, 0, 0);
+  --primary-dark: #6f1a27;
+  --secondary-dark: #4b111a;
+  --highlight-dark: rgba(0, 0, 0, 0.9);
 }
+
+body {
+  background: var(--background-light);
+  color: var(--text-light);
+  transition: all 0.3s ease;
+}
+
 
 .home-container{
   display: flex;
@@ -17,10 +31,15 @@ body{
   padding: 0;
 }
 
+.navbar-desktop {
+  background-color: var(--secondary-dark);
+  color: var(--light);
+}
+
 .carousel {
   position: relative;
   width: 100%;
-  height: 400px;
+  height: 600px;
   overflow: hidden;
   margin-bottom: 40px;
 }
@@ -33,7 +52,7 @@ body{
 
 .carousel-image {
   min-width: 100%; /* Cada imagem ocupa 100% da largura do contêiner */
-  height: 400px;
+  height: 600px;
   object-fit: cover;
 }
 
@@ -88,7 +107,7 @@ strong {
 }
 
 .home p {
-  font-weight: 500;
+  font-weight: 400;
   margin-bottom: 10px;
   max-width: 1000px;
   text-align: center;
@@ -108,6 +127,14 @@ strong {
   font-weight: 500;
   margin-top: 20px;
   transition: background-color 0.3s ease;
+}
+
+.logo_projeto_ig{
+  margin-top: 100px;
+  display: flex;
+  max-width: 500px;
+  border: 1px solid black;
+  border-radius: 20px;
 }
 
 .modal-container {
@@ -137,6 +164,8 @@ strong {
   position: relative;
   overflow: hidden;
   transition: all 0.3s ease-in-out;
+  background: var(--background-light);
+  color: var(--text-light);
 }
 
 .modal__details {
@@ -356,18 +385,16 @@ strong {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 86vh;
-}
-
-.contact-container p {
-  font-size: 1.2rem;
-  text-align: center;
-  margin-bottom: 30px;
 }
 
 .contact-links {
   list-style-type: none;
   padding: 0;
+}
+
+.contact p{
+  font-size: 1.2rem;
+  margin-bottom: 4rem;
 }
 
 .contact-links li {
@@ -380,7 +407,7 @@ strong {
   padding: 15px 25px;
   width: 200px;
   border-radius: 5px;
-  background-color: #4c1f1f;
+  background-color: #6f1a27;
   color: white;
   font-size: 1.1rem;
   font-weight: bold;
@@ -392,8 +419,8 @@ strong {
 }
 
 .contact-button:hover {
-  background-color: #d79393;
-  color: black;
+  background-color: #952121;
+  color: white;
 }
 
 /* Estilos responsivos para a página de Contato */
@@ -403,8 +430,10 @@ strong {
     font-size: 1rem;
   }
 
-  .contact-container p {
+  .contact p {
     font-size: 1rem;
+    margin-bottom: 30px;
+
   }
 }
 
@@ -417,8 +446,8 @@ strong {
   align-items: center;
   justify-content: space-between;
   max-width: 800px;
+  height: 200px;
   margin-bottom: 1rem;
-  padding: 4px;
   background-color: white;
   border: 1px solid black;
   box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
@@ -432,7 +461,7 @@ strong {
 
 .user-info {
   flex: 1;
-  margin: 0 20px;
+  margin: 0 20px 0px 0px;
 }
 
 .user-info h2 {
@@ -448,6 +477,8 @@ strong {
 .user-image {
   width: 150px;
   height: 150px;
+  margin-inline: 1rem;
+  border-radius: 50%;
   object-fit: cover;
 }
 
@@ -460,23 +491,83 @@ strong {
   order: 1; /* A imagem será movida para a direita */
 }
 
+body[data-theme="dark"] {
+  background: var(--background-dark);
+  color: var(--text-dark);
+}
+
+body[data-theme="dark"] .modal {
+  background: var(--background-dark);
+  color: var(--text-dark);
+}
+
+body[data-theme="dark"] .modal-container {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+body[data-theme="dark"] .carousel-button {
+  background-color: rgba(255, 255, 255, 0.3);
+  color: black;
+}
+
+body[data-theme="dark"] .carousel-button:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+body[data-theme="dark"] .home h1 {
+  color: var(--text-dark);
+}
+
+body[data-theme="dark"] .home-button {
+  background-color: var(--primary-dark);
+  color: var(--light);
+}
+
+body[data-theme="dark"] .contact-button {
+  background-color: #4c1f1f;
+  color: white;
+}
+
+body[data-theme="dark"] .user-section {
+  background-color: #333;
+  color: var(--text-dark);
+}
+
+body[data-theme="dark"] .user-section:hover {
+  background-color: #444;
+}
+
+
+
 /* Estilos responsivos */
 @media (max-width: 768px) {
   .user-section {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    height: 100%;
+  }
+
+  .home-space{
+    height: 100%;
+    margin-bottom: 1rem;
   }
 
   .user-info {
-    margin: 20px 0;
+    margin: 20px 0; 
+  }
+
+  .user-info p{
+    text-align: center;
+    padding-inline: 1rem;
   }
 
   .user-image {
-    margin-bottom: 20px;
+    margin-top: 20px;
   }
 
   .user-section .left, .user-section .right {
     order: 0; /* Para telas menores, as imagens voltarão a ficar acima do texto */
   }
 }
+

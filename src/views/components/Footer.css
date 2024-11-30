@@ -35,7 +35,7 @@
     margin: 2px 0; /* Margen entre elementos */
   }
   
-  .footer-links a, a{
+  .footer-links a{
     color: #9F0017; /* Color del enlace */
     text-decoration: none;
     transition: color 0.3s;
@@ -53,6 +53,10 @@
     grid-column: span 3; /* Ocupa todas las columnas en pantallas grandes */
     margin-top: 10px;
     padding: 10px 0; /* Padding para separación */
+  }
+
+  .krossler{
+    color: #9F0017;
   }
   
   /* Estilos para dispositivos móviles */

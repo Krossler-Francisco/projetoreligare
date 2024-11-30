@@ -1,9 +1,12 @@
 import React, { useState, useEffect, useRef } from 'react';
 
 const images = [
-  "https://www.wwu.edu/sites/default/files/styles/header_medium_large_screens/public/2022-04/psychology.jpg.webp?itok=im4GKNBy",
-  "https://cdn.shopify.com/s/files/1/0070/7032/files/psychological-design.jpg?v=1681761188",
-  "https://wallpapers.com/images/hd/psychology-pictures-zc9x9xxtk715spyr.jpg"
+  "./1.jpg",
+  "./2.jpg",
+  "./3.jpg",
+  "./4.jpg",
+  "./5.jpg",
+  "./6.jpg"
 ];
 
 function Home() {
@@ -79,7 +82,7 @@ function Home() {
   }, [currentIndex, totalImages]);
 
   return (
-    <section className='home-container'>
+    <section className='home-container home-space'>
       <section className="carousel">
         <div
           className="carousel-track"
@@ -110,19 +113,20 @@ function Home() {
       </section>
       <section className='home'>
         <strong className="home-h1-space">
-          <h1>Seja bem vindo! <br />É um prazer receber você!</h1>
+          <h1>Seja bem vindo!</h1>
+          <h1>É um prazer receber você!</h1>
         </strong>
-        <p>O Projeto Religare é uma Clínica Online que oferece o melhor serviço de atendimento psicológico online!</p>
-        <p>Contamos com uma equipe de psicólogos capacitados para te atender.</p>
+        <p>O projeto Religare é um projeto social que tem como objetivo prestar serviços de psicoterapia com fim social na modalidade online para pessoas de todo país.</p>
+        <p>Contamos com uma equipe de psicólogos formados e capacitados para te atender.</p>
         <a href="#modal-opened" className="link-1">Agende já sua consulta <span>➜</span></a>
           <div className="modal-container" id="modal-opened">
             <div className="modal">
               <div className="modal__details">
                 <strong className="modal__title">Formulario de ingreso.</strong>
-                <p className="modal__description">El formulario de ingreso consta de campos obligatorios como nombre, dirección de correo electrónico y contraseña. Asegúrese de ingresar la información correctamente antes de enviar el formulario.</p>
+                <p className="modal__description">O formulário contém campos obrigatórios, como nome, endereço de e-mail e dados pessoais. Certifique-se de preencher as informações corretamente antes de enviar o formulário.</p>
               </div>
-              <p className="modal__text">Al hacer clic en el botón Ingresar, su información será verificada y procesada para crear su cuenta de usuario.</p>
-              <button className="modal__btn">Formulario<span>➜</span></button>
+              <p className="modal__text">Após o envio, nossa equipe entrará em contato para agendar uma primeira entrevista terapêutica. Caso tenha dúvidas, estamos à disposição para ajudar em todo o processo.</p>
+              <a href='https://l.instagram.com/?u=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2F1tEnc9bt_6a1wu882HrpXw50rn5CINZpjF365Kz-eyCQ%2Fedit%3Ffbclid%3DPAZXh0bgNhZW0CMTEAAaYz6NeAryYncrLInhAzyP2DKqQ_FGuBTsMcUmkQoc_vjnqhmM1zPxJ7LjQ_aem_mGTldvm2aYo1CMtxVDFgxQ&e=AT2AxAmz1tIokqEVz203w8C4XsWsyi4rxBFxX5qgN_87P068Nsj9deJ68V6vjlghLDwFu1QRfzM_T4gyKxGk6ol55E8Nz652h53x5QFlWWRPTO-U0iSmTg' className="modal__btn">Formulario<span>➜</span></a>
               <a href="#modal-closed" className="link-2"></a>
             </div>
           </div>

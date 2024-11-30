@@ -9,9 +9,14 @@ import Footer from './views/components/Footer';
 import Services from './views/Services';
 import WhatsAppButton from './views/components/WhatsAppButton';
 import NotFound from './views/components/Notfound';
+import { useEffect } from 'react';
 
 
 function App() {
+  useEffect(() => {
+    document.documentElement.setAttribute('data-theme', 'light'); // Tema claro
+  }, []);
+
   return (
     <div className='bg'>
       <Router>

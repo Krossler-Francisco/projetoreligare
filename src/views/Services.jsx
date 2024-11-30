@@ -1,29 +1,20 @@
-import React from 'react';
+import "./about.css"
 
 function Services() {
   return (
-    <div className='services'>
-        <section className='home'>
-        <h1 className='info-h1'>Nossos servicos</h1>
-            <img className='info-h1' width={200} src="https://static.vecteezy.com/system/resources/thumbnails/024/484/985/small/woman-military-soldier-with-psychologist-helping-to-get-rid-psychological-problems-received-in-army-png.png" alt="" />
-            <h1 className='info-h1'>Psicoterapia</h1>
-            <p>O projeto social visa atender comunidades carentes, oferecendo serviços de psicoterapia e suporte psicológico a pessoas que não têm acesso a esses recursos. A ideia é promover o bem-estar mental e emocional, proporcionando um espaço seguro para que os participantes possam expressar suas dificuldades e buscar soluções.</p>
-            <p>Com uma equipe de psicólogos qualificados, garantimos um atendimento acolhedor e profissional, focado nas necessidades individuais de cada participante.</p>
-        </section>
-        <section className='home'>
-            <img width={200} src="https://img.freepik.com/vector-gratis/ilustracion-concepto-charla-publica_114360-27597.jpg" alt="" />
-            <h1 className='info-h1'>Palestras</h1>
-            <p>Oferecemos palestras educativas sobre saúde mental e bem-estar, com o objetivo de informar e conscientizar a população sobre a importância do cuidado psicológico. As palestras são conduzidas por profissionais experientes e cobrem diversos temas relevantes para o público em geral.</p>
-            <p>Além de fornecer informações valiosas, as palestras também promovem um espaço para discussões e trocas de experiências, contribuindo para a desmistificação da terapia e encorajando as pessoas a buscar ajuda quando necessário.</p>
-        </section>
-        <section className='home'>
-            <img width={200} src="https://img.freepik.com/vector-gratis/ilustracion-concepto-charla-publica_114360-27597.jpg" alt="" />
-            <h1 className='info-h1'>Palestras</h1>
-            <p>Oferecemos palestras educativas sobre saúde mental e bem-estar, com o objetivo de informar e conscientizar a população sobre a importância do cuidado psicológico. As palestras são conduzidas por profissionais experientes e cobrem diversos temas relevantes para o público em geral.</p>
-            <p>Além de fornecer informações valiosas, as palestras também promovem um espaço para discussões e trocas de experiências, contribuindo para a desmistificação da terapia e encorajando as pessoas a buscar ajuda quando necessário.</p>
-        </section>
+    <div className='about'>
+      <div className='home about-section-space'>
+        <h1 className='about-h1 info-h1'>Atendimento Psicológico  </h1>
+        <img className='info-h1' width={200} src="https://static.vecteezy.com/system/resources/thumbnails/024/484/985/small/woman-military-soldier-with-psychologist-helping-to-get-rid-psychological-problems-received-in-army-png.png" alt="" />
+        <p>O Projeto Religare oferece psicoterapia individual de alta qualidade, com o objetivo de atender pessoas de Ubatuba e Região que necessitam de apoio psicológico, mas não possuem os recursos necessários. Nosso foco está em proporcionar um atendimento acolhedor e eficaz, com uma abordagem humanizada, prezando pelo bem-estar emocional dos nossos pacientes.</p>
+      </div>
+      <div className='home about-section-space'>
+        <h1 className='info-h1'>Palestras e Seminários sobre Saúde Mental</h1>
+        <img width={200} src="https://img.freepik.com/vector-gratis/ilustracion-concepto-charla-publica_114360-27597.jpg" alt="" />
+        <p>Além da psicoterapia, o Projeto Religare também oferece palestras com foco em saúde mental, abordando temas relevantes e ajudando a comunidade a lidar melhor com as questões psicológicas do dia a dia. As palestras são uma forma de disseminar informações sobre saúde emocional, cuidados com a mente e como buscar ajuda quando necessário.</p>
+      </div>
     </div>
   )
 }
 
-export default Services;
+export default Services

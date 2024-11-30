@@ -7,18 +7,14 @@ function About() {
           <div className='home about-section-space'>
           <h1 className='about-h1 info-h1'>Quem somos?</h1>
             <img className='info' width={200} src="https://images.vexels.com/media/users/3/252027/isolated/preview/7d8e277792f119b7d5f52dfb0b4ca11c-a-rgano-de-accidente-cerebrovascular-humano.png" alt="section-alt" />
-            <p>O projeto de terapia social tem como finalidade tornar a psicoterapia mais acessível a maior parte da população, alcançando pessoas que não poderiam pagar por um valor normalmente praticado.</p>
-            <p>No projeto de psicoterapia social oferecemos um atendimento de qualidade, onde um paciente que pagaria o valor normal também teria.</p>
+            <p>O Projeto Religare é uma iniciativa de psicólogos de Ubatuba e Região, com objetivo de expandir o atendimento de psicoterapia individual para o maior número de pessoas, tendo seu enfoque em um serviço de extrema qualidade, com fim social, prezando por pessoas que muitas vezes se veem diante da necessidade de um tratamento psicológico, mas que carecem de recursos para fazê-los.</p>
           </div>
           <div className='home about-section-space'>
             <h1 className='info-h1' >Como funciona?</h1>
             <img className="img-info-space" width={200} src="https://static.vecteezy.com/system/resources/thumbnails/012/658/228/small/psychological-counseling-concept-psychological-assistance-service-online-png.png" alt="section-alt2" />
-            <p>Para entrar no projeto de terapia a valor social, o paciente passa por uma primeira sessão de triagem, onde conversará com uma psicóloga sobre sua demanda, a abordagem terapêutica utilizada, forma de pagamento e é feita uma avaliação socioeconômica. Desta maneira você conseguirá definir um valor que melhor cabe no seu orçamento junto com a psicóloga. Esta sessão de triagem tem um valor fixo de 50 reais.</p>
-            <p>Após esta sessão você será encaminhado para iniciar seu processo terapêutico com sua psicóloga que te acompanhará até o final do processo.</p>
-            <p>As sessões são feitas 1x por semana com duração de 50 min.</p>
+            <p>Para ser atendido(a) pelo Projeto Religare, primeiro deve ser preenchido o formulário inicial (presente aqui em nosso site e também na bio de nosso Instagram), onde a partir das informações lá obtidas, nossa equipe fará uma análise e o encaminharemos para uma conversa inicial (online e gratuita) com um dos psicólogos de nossa equipe, onde mais informações sobre a terapia, a questão de valores e horários, além de tirar possíveis dúvidas que você possa ter acerca do processo psicoterapêutico.</p>
           </div>
             <Users/>
-        
     </div>
   )
 }
