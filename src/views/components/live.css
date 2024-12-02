@@ -194,6 +194,11 @@
     }
 
     .video-frame {
-        height: 250px;
+        height: 200px;
+        padding-inline: 2rem;
+    }
+
+    .close-button {
+        right: 10px;
     }
 }
