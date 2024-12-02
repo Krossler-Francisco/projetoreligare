@@ -6,6 +6,11 @@
   color: inherit; /* Adapta a cor do texto ao tema */
 }
 
+body{
+  overflow: visible; /* Permite que el modal ocupe toda la pantalla */
+    position: static; /* Evita restricciones de posicionamiento */
+}
+
 :root {
   /* Cores para o modo claro */
   --bg-color: #ffffff;

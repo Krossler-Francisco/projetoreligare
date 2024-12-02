@@ -1,4 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
+import Post from "./components/Post"
+import Live from "./components/Live"
 
 const images = [
   "./1.jpg",
@@ -131,6 +133,8 @@ function Home() {
             </div>
           </div>
       </section>
+      <Post/>
+      <Live/>
     </section>
   );
 }
