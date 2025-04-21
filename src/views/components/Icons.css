@@ -1,0 +1,15 @@
+.navbar-links .link {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Espacio entre el ícono y el texto */
+  }
+  
+  .navbar-links .link svg {
+    font-size: 20px; /* Tamaño del ícono */
+    color: #555; /* Color del ícono */
+  }
+  
+  .navbar-links .link.active svg {
+    color: #000; /* Color cuando está activo */
+  }
+  
