@@ -5,11 +5,5 @@
   }
   
   .navbar-links .link svg {
-    font-size: 20px; /* Tamaño del ícono */
-    color: #555; /* Color del ícono */
+    font-size: 18px; /* Tamaño del ícono */
   }
-  
-  .navbar-links .link.active svg {
-    color: #000; /* Color cuando está activo */
-  }
-  

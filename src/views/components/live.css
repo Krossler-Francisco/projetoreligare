@@ -11,50 +11,50 @@
     color: rgb(236, 236, 236);
     clip-path: polygon(0 0, 100% 7%, 100% 100%, 0 93%);
     margin-top: 8rem;
-}
-
-.live-section h1 {
+  }
+  
+  .live-section h1 {
     text-align: center;
     font-weight: 500;
     margin-bottom: .2rem;
-}
-
-.live-section h2 {
+  }
+  
+  .live-section h2 {
     text-align: center;
     font-weight: 500;
     margin-bottom: .4rem;
     font-family: 'Lobster Two', cursive;
-}
-
-.live-container {
+  }
+  
+  .live-container {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-}
-
-/* Miniatura */
-.live-thumbnail {
+  }
+  
+  /* Miniatura */
+  .live-thumbnail {
     position: relative;
     display: inline-block;
     cursor: pointer;
-}
-
-.live-image {
+  }
+  
+  .live-image {
     width: 100%;
     max-width: 600px;
-    border: 2px solid #ffb7ce; /* Rojo vino oscuro */
+    border: 2px solid #ffb7ce;
     border-radius: 10px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.live-thumbnail:hover .live-image {
+  }
+  
+  .live-thumbnail:hover .live-image {
     transform: scale(1.05);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
-}
-
-/* Botão de Play */
-.play-button {
+  }
+  
+  /* Botão de Play */
+  .play-button {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -69,35 +69,35 @@
     filter: drop-shadow(0px 0px 6px black);
     cursor: pointer;
     transition: background-color 0.3s ease;
-}
-
-/* Modal */
-.modal-overlay {
+  }
+  
+  /* Modal */
+  .modal-overlay {
     position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
-    height: 100vh; /* Cobrirá toda a tela */
+    height: 100vh;
     background-color: rgba(0, 0, 0, 0.9);
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: visible;
     backdrop-filter: blur(4px);
-}
-
-.video-modal-content {
+  }
+  
+  .video-modal-content {
     position: fixed;
     width: 100%;
     max-width: 800px;
-}
-
-/* Botão de Fechar */
-.close-button {
+  }
+  
+  /* Botão de Fechar */
+  .close-button {
     position: absolute;
     top: -15px;
     right: -15px;
-    background-color: #641118; /* Rojo vino oscuro */
+    background-color: #641118;
     color: #fff;
     border: none;
     border-radius: 50%;
@@ -107,96 +107,103 @@
     cursor: pointer;
     font-weight: bold;
     transition: background-color 0.3s ease;
-}
-
-.close-button:hover {
-    background-color: #6e3b4f; /* Rojo vino mais claro */
-}
-
-/* Video */
-.video-frame {
+  }
+  
+  .close-button:hover {
+    background-color: #6e3b4f;
+  }
+  
+  /* Video */
+  .video-frame {
     width: 100%;
     height: 450px;
     border: none;
     border-radius: 10px;
-}
-
-/* Consultas de mídia */
-
-/* Telas médias (tablets) */
-@media (max-width: 1024px) {
+  }
+  
+  /* Consultas de mídia */
+  
+  /* Telas médias (tablets) */
+  @media (max-width: 1024px) {
     .live-section {
-        padding-block: 3rem;
+      padding-block: 3rem;
     }
-
+  
     .live-image {
-        max-width: 500px;
+      max-width: 500px;
     }
-
+  
     .video-frame {
-        height: 400px;
+      height: 400px;
     }
-
+  
     .play-button {
-        width: 60px;
-        height: 60px;
-        font-size: 28px;
+      width: 60px;
+      height: 60px;
+      font-size: 28px;
     }
-}
-
-/* Telas pequenas (smartphones) */
-@media (max-width: 768px) {
+  }
+  
+  /* Telas pequenas (smartphones) */
+  @media (max-width: 768px) {
     .live-section {
-        padding-block: 4rem;
-        padding-inline: 2rem;
+      padding-block: 4rem;
+      padding-inline: 2rem;
     }
-
+  
     .live-section h1 {
-        font-size: 1.5rem;
+      font-size: 2rem;
     }
-
+  
     .live-section h2 {
-        font-size: 1rem;
+      font-size: 1rem;
     }
-
+  
     .live-image {
-        max-width: 100%;
-        border-width: 1px;
+      max-width: 100%;
+      border-width: 1px;
     }
-
+  
     .play-button {
-        width: 50px;
-        height: 50px;
-        font-size: 24px;
+      width: 50px;
+      height: 50px;
+      font-size: 24px;
     }
-
+  
     .video-frame {
-        height: 300px;
+      height: 300px;
     }
-}
-
-/* Telas muito pequenas (telefones compactos) */
-@media (max-width: 480px) {
+  }
+  
+  /* Telas muito pequenas (telefones compactos) */
+  @media (max-width: 480px) {
     .live-section h1 {
-        font-size: 1.2rem;
+      font-size: 1.8rem;
     }
-
+  
     .live-section h2 {
-        font-size: 0.9rem;
+      font-size: 1.2rem;
+      font-style: italic;
     }
-
+  
     .play-button {
-        width: 40px;
-        height: 40px;
-        font-size: 20px;
+      width: 40px;
+      height: 40px;
+      font-size: 20px;
     }
-
+  
     .video-frame {
-        height: 200px;
-        padding-inline: 2rem;
+      height: 200px;
+      padding-inline: 2rem;
     }
-
+  
     .close-button {
-        right: 10px;
+      right: 10px;
     }
-}
+  
+    /* Quebra de linha para o título */
+    .live-section h1 .first-word {
+      display: block; /* Faz "Entrevista" ir para a linha seguinte */
+    }
+  }
+  

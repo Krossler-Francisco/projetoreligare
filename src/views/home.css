@@ -39,7 +39,7 @@ body {
 .carousel {
   position: relative;
   width: 100%;
-  height: 500px;
+  height: 600px;
   overflow: hidden;
   margin-bottom: 60px;
 }
@@ -52,7 +52,7 @@ body {
 
 .carousel-image {
   min-width: 100%; /* Cada imagem ocupa 100% da largura do contêiner */
-  height: 500px;
+  height: 600px;
   object-fit: cover;
 }
 
@@ -287,6 +287,10 @@ strong {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  .home h1{
+    font-size: 2.3rem;
   }
 
   .link-2 {

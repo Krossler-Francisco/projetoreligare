@@ -13,7 +13,9 @@ const Live = () => {
   return (
     <>
   <section className="live-section">
-      <h1>Entrevista "Ponto de encontro"</h1>
+  <h1>
+    <span className="first-word">Entrevista</span> "Ponto de encontro"
+  </h1>
       <h2>Projeto Religare</h2>
     <div className="live-container">
       {/* Imagen con botón de Play */}
