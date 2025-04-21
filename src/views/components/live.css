@@ -11,7 +11,6 @@
     color: rgb(236, 236, 236);
     clip-path: polygon(0 0, 100% 7%, 100% 100%, 0 93%);
     margin-top: 8rem;
-    margin-bottom: 8rem;
 }
 
 .live-section h1 {
@@ -79,7 +78,7 @@
     left: 0;
     width: 100vw;
     height: 100vh; /* Cobrirá toda a tela */
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.9);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,7 +90,6 @@
     position: fixed;
     width: 100%;
     max-width: 800px;
-    filter: drop-shadow(0px 0px 10px rgb(78, 0, 0));
 }
 
 /* Botão de Fechar */

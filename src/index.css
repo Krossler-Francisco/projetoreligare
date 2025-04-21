@@ -73,3 +73,12 @@ button{
 .container > * + * {
   margin-top: 1.5rem;
 }
+
+
+.para{
+  margin-bottom: 2rem;
+  font-weight: 400;
+  max-width: 1000px;
+  text-align: center;
+  font-size: 1.1rem;
+}
