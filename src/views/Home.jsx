@@ -119,7 +119,7 @@ function Home() {
         </strong>
         <p className='home__p'>O Projeto Religare é uma iniciativa social que tem como objetivo prestar serviços de psicoterapia na modalidade online para pessoas de todo país.</p>
         <p className='home__p'>Contamos com uma equipe de psicólogos formados e capacitados para te atender.</p>
-        <a href="#modal-opened" className="link-1">Agende já sua consulta <span>➜</span></a>
+        <a href="https://l.instagram.com/?u=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2F1tEnc9bt_6a1wu882HrpXw50rn5CINZpjF365Kz-eyCQ%2Fedit%3Ffbclid%3DPAZXh0bgNhZW0CMTEAAaYz6NeAryYncrLInhAzyP2DKqQ_FGuBTsMcUmkQoc_vjnqhmM1zPxJ7LjQ_aem_mGTldvm2aYo1CMtxVDFgxQ&e=AT2AxAmz1tIokqEVz203w8C4XsWsyi4rxBFxX5qgN_87P068Nsj9deJ68V6vjlghLDwFu1QRfzM_T4gyKxGk6ol55E8Nz652h53x5QFlWWRPTO-U0iSmTg" className="link-1">Agende já sua consulta <span>➜</span></a>
           <div className="modal-container" id="modal-opened">
             <div className="modal">
               <div className="modal__details">
