@@ -1,11 +1,12 @@
+import "./users.css"
 
 function Users() {
   return (
     <div className='home about-section-space'>
-      <h1 className='info-h1'>Nossos Psicólogos</h1>
-      <div className="user-section">
+      <h1 className='info-h1 fon'>Nossos Psicólogos</h1>
+      <div className="user-section fon1">
         <img src="./psi/1.jpg" alt="Psicólogo 1" className="user-image left" />
-        <div className="user-info">
+        <div className="user-info ">
           <h2>Samuel Tomé</h2>
           <p>
           Sou psicólogo clínico, utilizo terapia cognitivo-comportamental, atuo no projeto Religare.

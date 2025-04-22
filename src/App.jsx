@@ -10,6 +10,7 @@ import Services from './views/Services';
 import WhatsAppButton from './views/components/WhatsAppButton';
 import NotFound from './views/components/Notfound';
 import { useEffect } from 'react';
+import ContactWpp from './views/components/ContactWpp';
 
 function App() {
   useEffect(() => {
@@ -19,7 +20,9 @@ function App() {
   return (
     <div className='bg'>
       <Router>
+        
         <div id='modal-closed' className='navbar-desktop' />
+        <ContactWpp/>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -31,6 +34,7 @@ function App() {
         </Routes>
         <WhatsAppButton />
         <Footer />
+        
       </Router>
     </div>
   );

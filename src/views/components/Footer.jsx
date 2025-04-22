@@ -26,10 +26,10 @@ function Footer() {
           </ul>
         </div>
         <div className="footer-creators footer-links">
-          <h3>Creadores</h3>
-          <p><a translate="no" href='https://wa.me/+5512991917452'>Ricardo Falleiros</a></p>
-          <p><a translate="no" href='https://wa.me/+5512996644952'>Samuel Tomé</a></p>
-          <p><a translate="no" href='https://wa.me/+5512974018966'>Giovanni Ribeiro</a></p>
+          <h3>Fundadores</h3>
+          <p><a translate="no" href='https://www.instagram.com/projetoreligare.psi/'>Ricardo Falleiros</a></p>
+          <p><a translate="no" href='https://www.instagram.com/projetoreligare.psi/'>Samuel Tomé</a></p>
+          <p><a translate="no" href='https://www.instagram.com/projetoreligare.psi/'>Giovanni Ribeiro</a></p>
         </div>
       </div>
       <div className="footer-bottom">

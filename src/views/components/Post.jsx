@@ -33,12 +33,10 @@ const Post = () => {
 
     return(
         <section className="blog-container">
-            <h1 className="blog-h1">
+            <h1 className="blog-h1 fon">
                 Novidades
             </h1>
-            <h2>
-                @projetoreligare.psi
-            </h2>
+            <a href="https://www.instagram.com/projetoreligare.psi/" target="_blank" rel="noopener noreferrer">@projetoreligare.psi</a>
             <div className="post-container">
             {posts.map((post) => (
                 <div className="post-div">
@@ -47,7 +45,7 @@ const Post = () => {
                             <img src={post.img} alt={post.postname} />
                         <aside className="post-aside">
                             <h3 className="post-title">{post.postname}</h3>
-                            <p>ver más</p>
+                            <p>Ver mais</p>
                         </aside>
                         </a>
                     </figure>

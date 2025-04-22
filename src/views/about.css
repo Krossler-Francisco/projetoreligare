@@ -2,10 +2,32 @@
     margin-top: 6rem;
 }
 
+.fon1{
+    margin-top: 4rem;
+  }
+
+.fon{
+    font-family: 'Lobster Two', cursive;
+    margin-bottom: 2rem;
+}
+
 .about-section-space{
     margin-bottom: 4rem;
 }
 
 .img-info-space{
     margin-block: 2rem;
+}
+
+.about-link{
+    color: rgb(138, 11, 11);
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+
+    .about p{
+        max-width: 90%;
+    }
+    
 }

@@ -1,0 +1,14 @@
+.contact-wpp{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10001;
+}
+
+.contact-wpp-container{
+    border: 1px solid green;
+
+}

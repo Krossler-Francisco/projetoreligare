@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Post from "./components/Post"
 import Live from "./components/Live"
+import ContactWpp from './components/ContactWpp';
 
 const images = [
   "./1.jpg",
@@ -82,6 +83,7 @@ function Home() {
 
   return (
     <section className='home-container home-space'>
+        
       <section className="carousel">
         <div
           className="carousel-track"
@@ -112,10 +114,10 @@ function Home() {
       </section>
       <section className='home'>
         <strong className="home-h1-space">
-          <h1>Seja bem vindo!</h1>
-          <h1>É um prazer receber você!</h1>
+          <h1>Seja Bem-vindo!</h1>
+          <h1>É um prazer recebê-lo!</h1>
         </strong>
-        <p className='home__p'>O projeto Religare é um projeto social que tem como objetivo prestar serviços de psicoterapia com fim social na modalidade online para pessoas de todo país.</p>
+        <p className='home__p'>O Projeto Religare é uma iniciativa social que tem como objetivo prestar serviços de psicoterapia na modalidade online para pessoas de todo país.</p>
         <p className='home__p'>Contamos com uma equipe de psicólogos formados e capacitados para te atender.</p>
         <a href="#modal-opened" className="link-1">Agende já sua consulta <span>➜</span></a>
           <div className="modal-container" id="modal-opened">

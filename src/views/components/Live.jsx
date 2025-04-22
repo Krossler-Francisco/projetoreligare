@@ -13,12 +13,11 @@ const Live = () => {
   return (
     <>
   <section className="live-section">
-  <h1>
-    <span className="first-word">Entrevista</span> "Ponto de encontro"
+  <h1 className="shadow">
+    <span className="first-word">Entrevista no Programa</span> "Ponto de Encontro"
   </h1>
-      <h2>Projeto Religare</h2>
+      <h2 className="shadow">Projeto Religare</h2>
     <div className="live-container">
-      {/* Imagen con botón de Play */}
       <div className="live-thumbnail" onClick={openModal}>
         <img src={videoImg} alt="Live Thumbnail" className="live-image" />
         <button className="play-button">▶</button>
